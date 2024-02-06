@@ -21,8 +21,8 @@
                     "createdAt": "2024-01-30T02:36:09.215Z",
                     "updatedAt": "2024-01-30T02:36:09.215Z",
                     "__v": 0,
-                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/65aebd62b1e794aa09d9a239/projects/65b85f62dee5520c50afb045/assets/65b86099dee5520c50b0007a?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20240205%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20240205T151313Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=001860feef7fd37a3fa4bc6eea673cc1a9962f0387ea2f995493391530dacc548d6bb0123cc37dc2fec342e10a0220538d90efcee2fa8e6d88a7b35721355b92b603b36444c9f2cbb18a52e07c4d0daf5fb94ca43ddb7dbb997a958f491b72bdfae8939ed9888bcb502721d3c8771c30273ea1a8ab5ab0ac7aa222338f8328f3c804fcd473169491002a3b06fe0126217394eff07cfe304d150637be4e5fc5c4275d5567993bcf1cbe00851e831fb5e26fa259905fbe495d84b92e3ed2a3704af47d015cc10ad00efa64c1d6c4f015397dc93efa5a35d9a1eeafb51280271bd8d4674a3fe9751111cb5a3e76c933ab04f84f3e6ca348fbd5b268ddc11c0c04bf",
-                    "signedUrlExpirationTime": 1707318793202
+                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/65aebd62b1e794aa09d9a239/projects/65b85f62dee5520c50afb045/assets/65b86099dee5520c50b0007a?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20240206%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20240206T213440Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=522c68e6e01c73bd122680a3378cf0512242228cc43659756a654aafa6de53f3a4bd3173007f36685d2e260bd12bacbf166fb54cc298b200c64c6377baeb57e2eacf7f8c4b4e867df4f886ac7d4855d67c82e0e8e19c54c38d7e5e6ad7d6ccc33afc2670bcebbd49f251b3cf66ec0d0b757aeb6471cee25570e9f25603559e30ed02dd484f9442d58f63a12b2699fe84acff0a12e9fbb50d63ac771bc30f1964679ea9877ec957995137c74f7fea5eed5ba348e3e0da1bf9d69f511d34c3f664c24cafb85dc44c2eb218fb4fbad967e905a93a7639fb05d46a9f676ef6238ad5052bc02fb5d993b8e3b2e610a375fc9f1bbc40eee73def7bc03d382d6ad9809c",
+                    "signedUrlExpirationTime": 1707428080105
                 }
             },
             "backendUpgradeVersion": 24,
@@ -47,6 +47,7 @@
                         ]
                     },
                     "enabledFeatures": {
+                        "location": true,
                         "iap": false
                     }
                 },
@@ -71,6 +72,7 @@
                         ]
                     },
                     "enabledFeatures": {
+                        "location": true,
                         "iap": false
                     }
                 }
@@ -117,7 +119,7 @@
             "figmaComponents": {},
             "description": null,
             "icon": null,
-            "projectName": "A1.3",
+            "projectName": "A1.3.2",
             "settings": {
                 "teamId": null,
                 "appName": null,
@@ -151,7 +153,7 @@
                     "ios": {
                         "usageDescriptions": {
                             "NSCameraUsageDescription": "",
-                            "NSMicrophoneUsageDescription": ""
+                            "NSPhotoLibraryUsageDescription": ""
                         }
                     }
                 },
@@ -200,7 +202,7 @@
                     "ios": {
                         "usageDescriptions": {
                             "NSCameraUsageDescription": "",
-                            "NSMicrophoneUsageDescription": ""
+                            "NSPhotoLibraryUsageDescription": ""
                         }
                     }
                 },
@@ -225,10 +227,16 @@
             "customProperties": [],
             "modules": [],
             "usesDragDropUi": true,
-            "totalCopy": "0",
+            "totalCopy": "1",
             "totalStar": "0",
             "starAction": "star",
-            "variables": {},
+            "variables": {
+                "e4f48f96-ce1d-4b30-9350-226dd7013205": {
+                    "scope": "APP",
+                    "name": "Voice_Bool",
+                    "screenId": "b3fcd217-a404-4d4f-bd06-831b7a6848a1"
+                }
+            },
             "defaultDesignerDevice": "PHONE",
             "defaultDesignerOrientation": "PORTRAIT",
             "schemaVersion": 2,
